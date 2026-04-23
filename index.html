@@ -19,8 +19,10 @@
 <meta name="twitter:title" content="Ikanke-Abasi Umana — Programs, Writing & Events">
 <meta name="twitter:description" content="Building ecosystems, writing essays, hosting stages. From Akwa Ibom, Nigeria.">
 <meta name="twitter:image" content="kanky-1.jpg">
-<link rel="icon" type="image/png" href="/flower-girl.png">
-<link rel="apple-touch-icon" href="/flower-girl.png">
+<link rel="icon" type="image/png" sizes="32x32" href="flower-girl.png">
+<link rel="icon" type="image/png" sizes="16x16" href="flower-girl.png">
+<link rel="apple-touch-icon" sizes="180x180" href="flower-girl.png">
+<link rel="shortcut icon" href="flower-girl.png">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Person","name":"Ikanke-Abasi Umana","alternateName":["Kanky Umana","Kanky","Ikanke Abasi Umana"],"jobTitle":"Product Integration & Growth Manager","worksFor":{"@type":"Organization","name":"Mosaic Human Capital Innovations","url":"https://mosaichci.com"},"url":"https://kankyumana.github.io","sameAs":["https://www.linkedin.com/in/ikanke-abasi-umana-815444173","https://onthisnote.substack.com"]}
 </script>
@@ -58,10 +60,6 @@ nav{position:sticky;top:0;background:rgba(245,240,232,0.97);backdrop-filter:blur
 .hero-name{font-family:var(--serif);font-size:clamp(50px,5.5vw,80px);font-weight:600;color:var(--sand);line-height:1.0;margin-bottom:28px;}
 .hero-name em{font-style:italic;color:var(--terra-light);}
 .hero-tagline{font-size:14px;color:rgba(232,213,176,0.52);line-height:1.9;max-width:360px;margin-bottom:48px;font-weight:300;letter-spacing:0.01em;}
-.hero-cta{display:inline-flex;align-items:center;gap:10px;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--sand);border-bottom:1px solid rgba(196,154,60,0.6);padding-bottom:6px;text-decoration:none;font-weight:500;transition:opacity 0.2s;width:fit-content;}
-.hero-cta:hover{opacity:0.65;}
-.hero-scroll{position:absolute;bottom:36px;left:60px;z-index:2;display:flex;align-items:center;gap:10px;color:rgba(232,213,176,0.18);font-size:10px;letter-spacing:0.16em;text-transform:uppercase;}
-.hero-scroll-line{width:40px;height:1px;background:rgba(196,154,60,0.25);}
 .hero-photo{background-size:cover;background-position:center 5%;position:relative;}
 .hero-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(to right,var(--night) 0%,transparent 28%);}
 
@@ -215,7 +213,7 @@ a{color:inherit;}
 .orwell-card{background:var(--linen-dark);padding:32px;}
 
 .research{padding:96px 60px;background:var(--linen);}
-.research-layout{display:grid;grid-template-columns:1fr 160px 1fr;gap:40px;align-items:start;margin-top:52px;}
+.research-layout {display:grid;grid-template-columns:1fr 180px 1fr;gap:40px;align-items:stretch;margin-top:52px;}
 .r-card{border:1px solid rgba(212,188,140,0.55);padding:40px;}
 .r-status{font-size:10px;letter-spacing:0.14em;text-transform:uppercase;font-weight:500;padding:4px 10px;display:inline-block;margin-bottom:18px;}
 .r-forthcoming{background:rgba(139,58,26,0.07);color:var(--terra);border:1px solid rgba(139,58,26,0.18);}
@@ -223,8 +221,7 @@ a{color:inherit;}
 .r-title{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--ink);line-height:1.3;margin-bottom:12px;}
 .r-body{font-size:13px;color:var(--muted);line-height:1.8;text-align:justify;}
 .r-detail{margin-top:16px;padding-top:14px;border-top:1px solid rgba(212,188,140,0.45);font-size:11px;color:var(--muted);opacity:0.75;}
-.r-divider{background-size:cover;background-position:center;align-self:stretch;min-height:280px;}
-
+.r-divider {background-size: cover;background-position: center 35%;align-self: stretch;min-height: 100%;}
 .recognition{padding:96px 60px;background:var(--night);}
 .recognition .section-label{color:var(--brass);}
 .recognition .section-label::before{background:var(--brass);}
@@ -275,7 +272,7 @@ footer{background:var(--ink);padding:28px 60px;display:flex;justify-content:spac
   .stat-col:last-child{border-top:1px solid rgba(212,188,140,0.5);}
   .work-grid,.test-grid,.int-grid,.writing-grid,.research-layout,.books-row,.hackathon-row,.ivlp-row{grid-template-columns:1fr;}
   .events-grid,.rec-grid{grid-template-columns:1fr;}
-  .r-divider{min-height:180px;}
+  .r-divider{min-height:280px;}
   .pq{flex-direction:column;gap:20px;padding:44px 24px;}
   .pq-img{width:100%;height:150px;}
   .carousel-item{width:260px;}
@@ -317,8 +314,6 @@ footer{background:var(--ink);padding:28px 60px;display:flex;justify-content:spac
     <p class="hero-overline">Programs &middot; Writing &middot; Research &middot; Events</p>
     <h1 class="hero-name">Ikanke-Abasi<br><em>Umana</em></h1>
     <p class="hero-tagline">Building ecosystems, writing essays, hosting stages. Programs designer, researcher, radio host, event anchor, and essayist from Akwa Ibom, Nigeria.</p>
-    <a class="hero-cta" href="#writing">Read her work &rarr;</a>
-    <p class="hero-scroll"><span class="hero-scroll-line"></span> Scroll</p>
   </div>
   <div class="hero-photo" style="background-image:url('kanky-1.jpg');background-position:center 5%;"></div>
 </section>
@@ -575,13 +570,13 @@ footer{background:var(--ink);padding:28px 60px;display:flex;justify-content:spac
           <p class="card-desc">The AKTW pre-event edition. Panel on 'Founding Akwa Ibom' featuring Aniedi Udo-Obong (Google), pitch competition, and ecosystem-building conversations.</p>
         </div>
       </div>
-      <div class="carousel-item far" data-index="5" data-src="https://www.instagram.com/reel/DQpS60Kgiw-/embed" onclick="selectSlide(5)">
+      <div class="carousel-item far" data-index="5" data-src="https://www.instagram.com/reel/DQpS60Kgiw-/embed/" onclick="selectSlide(5)">
         <div class="video-wrap">
           <div class="video-cover" id="cover-5" onclick="playVideo(5, event)">
             <div class="video-thumb ig-thumb"></div>
             <div class="play-btn">&#9654;</div>
           </div>
-          <iframe id="iframe-5" src="about:blank" data-src="https://www.instagram.com/reel/DQpS60Kgiw-/embed" allowfullscreen allow="autoplay" title="Innovation Challenge Semi-Finals"></iframe>
+          <iframe id="iframe-5" src="about:blank" data-src="https://www.instagram.com/reel/DQpS60Kgiw-/embed/" allowfullscreen allow="autoplay" title="Innovation Challenge Semi-Finals"></iframe>
         </div>
         <div class="card-info">
           <p class="card-label">AKTW 2025</p>
@@ -589,13 +584,13 @@ footer{background:var(--ink);padding:28px 60px;display:flex;justify-content:spac
           <p class="card-desc">Young innovators from across Akwa Ibom in front of a live audience and panel at Akwa Ibom Tech Week 2025.</p>
         </div>
       </div>
-      <div class="carousel-item far" data-index="6" data-src="https://www.instagram.com/reel/DQrKbrEgjzr/embed" onclick="selectSlide(6)">
+      <div class="carousel-item far" data-index="6" data-src="https://www.instagram.com/reel/DQrKbrEgjzr/embed/" onclick="selectSlide(6)">
         <div class="video-wrap">
           <div class="video-cover" id="cover-6" onclick="playVideo(6, event)">
             <div class="video-thumb ig-thumb"></div>
             <div class="play-btn">&#9654;</div>
           </div>
-          <iframe id="iframe-6" src="about:blank" data-src="https://www.instagram.com/reel/DQrKbrEgjzr/embed" allowfullscreen allow="autoplay" title="First Lady's Breakfast for Women in Tech"></iframe>
+          <iframe id="iframe-6" src="about:blank" data-src="https://www.instagram.com/reel/DQrKbrEgjzr/embed/" allowfullscreen allow="autoplay" title="First Lady's Breakfast for Women in Tech"></iframe>
         </div>
         <div class="card-info">
           <p class="card-label">AKTW 2025 · GIFA</p>
@@ -603,13 +598,13 @@ footer{background:var(--ink);padding:28px 60px;display:flex;justify-content:spac
           <p class="card-desc">The first event of its kind in Akwa Ibom State — bringing women in tech under the patronage of the Office of the First Lady.</p>
         </div>
       </div>
-      <div class="carousel-item far" data-index="7" data-src="https://www.instagram.com/reel/DQrkj2iAkaV/embed" onclick="selectSlide(7)">
+      <div class="carousel-item far" data-index="7" data-src="https://www.instagram.com/reel/DQrkj2iAkaV/embed/" onclick="selectSlide(7)">
         <div class="video-wrap">
           <div class="video-cover" id="cover-7" onclick="playVideo(7, event)">
             <div class="video-thumb ig-thumb"></div>
             <div class="play-btn">&#9654;</div>
           </div>
-          <iframe id="iframe-7" src="about:blank" data-src="https://www.instagram.com/reel/DQrkj2iAkaV/embed" allowfullscreen allow="autoplay" title="The First Lady Announces TechRise Women"></iframe>
+          <iframe id="iframe-7" src="about:blank" data-src="https://www.instagram.com/reel/DQrkj2iAkaV/embed/" allowfullscreen allow="autoplay" title="The First Lady Announces TechRise Women"></iframe>
         </div>
         <div class="card-info">
           <p class="card-label">TechRise Women Initiative</p>
@@ -617,13 +612,13 @@ footer{background:var(--ink);padding:28px 60px;display:flex;justify-content:spac
           <p class="card-desc">The First Lady of Akwa Ibom State announces TechRise Women Initiative, designed and managed by Ikanke-Abasi in partnership with MHCI and AfriLabs.</p>
         </div>
       </div>
-      <div class="carousel-item far" data-index="8" data-src="https://www.instagram.com/reel/DQgqu98jm2a/embed" onclick="selectSlide(8)">
+      <div class="carousel-item far" data-index="8" data-src="https://www.instagram.com/reel/DQgqu98jm2a/embed/" onclick="selectSlide(8)">
         <div class="video-wrap">
           <div class="video-cover" id="cover-8" onclick="playVideo(8, event)">
             <div class="video-thumb ig-thumb"></div>
             <div class="play-btn">&#9654;</div>
           </div>
-          <iframe id="iframe-8" src="about:blank" data-src="https://www.instagram.com/reel/DQgqu98jm2a/embed" allowfullscreen allow="autoplay" title="Pre-AKTW Edition: Founding Akwa Ibom"></iframe>
+          <iframe id="iframe-8" src="about:blank" data-src="https://www.instagram.com/reel/DQgqu98jm2a/embed/" allowfullscreen allow="autoplay" title="Pre-AKTW Edition: Founding Akwa Ibom"></iframe>
         </div>
         <div class="card-info">
           <p class="card-label">Founders Friday Uyo October 2025</p>
@@ -822,6 +817,7 @@ footer{background:var(--ink);padding:28px 60px;display:flex;justify-content:spac
 var N = 9;
 var activeIdx = 1;
 var isAnimating = false;
+var igScriptLoaded = false;
 
 function getSlotClass(diff) {
   var abs = Math.abs(diff);
@@ -829,6 +825,29 @@ function getSlotClass(diff) {
   if (abs === 1) return 'side';
   if (abs === 2) return diff < 0 ? 'far-left' : 'far-right';
   return 'far';
+}
+
+function loadVisibleIframes() {
+  var items = document.querySelectorAll('.carousel-item');
+  items.forEach(function(item) {
+    var iframe = item.querySelector('iframe');
+    if (!iframe) return;
+    var src = iframe.getAttribute('data-src');
+    if (!src || iframe.src !== 'about:blank') return;
+    var diff = parseInt(item.getAttribute('data-index')) - activeIdx;
+    if (diff > N/2) diff -= N;
+    if (diff < -N/2) diff += N;
+    // load iframes for active and adjacent slides
+    if (Math.abs(diff) <= 1) {
+      iframe.src = src;
+      // for Instagram, process embed after load
+      if (src.indexOf('instagram.com') > -1) {
+        iframe.onload = function() {
+          if (window.instgrm) window.instgrm.Embeds.process();
+        };
+      }
+    }
+  });
 }
 
 function updateLayout() {
@@ -843,17 +862,10 @@ function updateLayout() {
     item.className = 'carousel-item ' + getSlotClass(diff);
   });
   
-  // Centre active item
   var containerW = track.parentElement.offsetWidth;
   var activeW = window.innerWidth < 960 ? 280 : 480;
-  var sideW = window.innerWidth < 960 ? 200 : 300;
   var gap = 20;
   
-  // Offset: put active centred, side cards on each side
-  var leftOffset = (containerW - activeW) / 2;
-  track.style.cssText = 'display:flex;align-items:center;gap:' + gap + 'px;transform:none;';
-  
-  // Use flexbox order to arrange: far-left, side-left, active, side-right, far-right
   var ordered = [];
   for (var offset = -Math.floor(N/2); offset <= Math.floor(N/2); offset++) {
     var idx = ((activeIdx + offset) % N + N) % N;
@@ -873,7 +885,6 @@ function updateLayout() {
   
   dots.forEach(function(d, i) { d.classList.toggle('active', i === activeIdx); });
   
-  // Scroll the active into view within the outer container
   var activeEl = document.querySelector('.carousel-item.active');
   if (activeEl) {
     var outerRect = track.parentElement.getBoundingClientRect();
@@ -886,6 +897,9 @@ function updateLayout() {
     track.dataset.translate = String(newTranslate);
     track.style.transform = 'translateX(' + newTranslate + 'px)';
   }
+  
+  // Auto-load visible iframes
+  loadVisibleIframes();
 }
 
 function selectSlide(idx) {
@@ -906,15 +920,30 @@ function playVideo(idx, evt) {
   var iframe = document.getElementById('iframe-' + idx);
   if (idx !== activeIdx) { selectSlide(idx); return; }
   var src = iframe.getAttribute('data-src');
-  if (iframe.src === 'about:blank' || iframe.src === '') iframe.src = src;
+  if (iframe.src === 'about:blank' || iframe.src === '') {
+    iframe.src = src;
+    // For Instagram, process after load
+    if (src.indexOf('instagram.com') > -1) {
+      iframe.onload = function() {
+        if (window.instgrm) window.instgrm.Embeds.process();
+      };
+    }
+  }
   cover.classList.add('hidden');
 }
 
 window.addEventListener('load', function() {
+  updateLayout();
   // Pre-load iframe for active item
   var activeIframe = document.getElementById('iframe-' + activeIdx);
-  if (activeIframe) activeIframe.src = activeIframe.getAttribute('data-src');
-  updateLayout();
+  if (activeIframe) {
+    activeIframe.src = activeIframe.getAttribute('data-src');
+    if (activeIframe.getAttribute('data-src').indexOf('instagram.com') > -1) {
+      activeIframe.onload = function() {
+        if (window.instgrm) window.instgrm.Embeds.process();
+      };
+    }
+  }
   
   var autoTimer = setInterval(function() {
     if (!document.querySelector('.video-cover.hidden')) shiftCarousel(1);
@@ -934,5 +963,6 @@ window.addEventListener('resize', function() {
 });
 </script>
 
+<script async src="https://www.instagram.com/embed.js"></script>
 </body>
 </html>

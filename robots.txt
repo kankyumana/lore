@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kankyumana.github.io/lore/sitemap.xml
